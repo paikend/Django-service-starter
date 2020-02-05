@@ -1,0 +1,4 @@
+[console_scripts]
+pip-extra-reqs = pip_check_reqs.find_extra_reqs:main
+pip-missing-reqs = pip_check_reqs.find_missing_reqs:main
+

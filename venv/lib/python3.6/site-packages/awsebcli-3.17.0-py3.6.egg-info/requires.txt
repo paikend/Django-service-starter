@@ -1,0 +1,22 @@
+botocore<1.14,>1.13.0
+cement==2.8.2
+colorama<0.4.0,>=0.3.9
+future<0.17.0,>=0.16.0
+pathspec==0.5.9
+python-dateutil<2.8.1,>=2.1
+PyYAML<=3.13,>=3.10
+requests<2.21,>=2.20.1
+setuptools>=20.0
+semantic_version==2.5.0
+six<1.12.0,>=1.11.0
+termcolor==1.1.0
+urllib3<1.25,>=1.24.1
+wcwidth<0.2.0,>=0.1.7
+docker-compose<1.24.0,>=1.23.2
+blessed>=1.9.5
+
+[:sys_platform == "win32" and python_version < "3.6"]
+pypiwin32==219
+
+[:sys_platform == "win32" and python_version >= "3.6"]
+pypiwin32==223

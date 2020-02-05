@@ -1,0 +1,55 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+
+## Python compiled byte code
+*.pyc
+
+## IDE Config
+.idea
+
+## IPython Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+## Elastic Beanstalk Configures
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+## log
+*.log
+
+## secret
+dev_db.txt
+email.txt
+secret_key.txt
+
+## media files
+media/
+media*
+
+## for mac
+.DS_Store
+
+## fixtures data (test)
+config/fixtures/test/*
+
+## Schema graph
+schema/
+
+## vscode
+.vscode/
+
+## practice
+practice/
+note/
+
+## virtual env
+django_py36
+
+## migrations for github
+migrations/
+
+## pytest
+.pytest*
