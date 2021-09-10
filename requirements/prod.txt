@@ -39,7 +39,7 @@ ruamel.yaml==0.16.12
 ruamel.yaml.clib==0.2.2
 sentry-sdk==0.20.3
 six==1.15.0
-sqlparse==0.4.1
+sqlparse==0.4.2
 uritemplate==3.0.1
 urllib3==1.26.3
 vine==5.0.0
